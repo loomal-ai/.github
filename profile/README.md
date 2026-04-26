@@ -10,7 +10,7 @@ Loomal gives every AI agent its own real identity — an email address it can se
 
 ## What's in the box
 
-- **Email** — every identity gets an inbox at `name@loomal.ai`. Send, reply, label, thread.
+- **Email** — every identity gets a real inbox at `name-<id>@mailgent.dev` (e.g. `alice-k3p9q2x@mailgent.dev`). Send, reply, label, thread.
 - **Vault** — password-manager-style storage for API keys, payment cards, shipping addresses, and TOTP secrets. AES-256-GCM at rest.
 - **Calendar** — schedule, share, and resolve events under the agent's identity.
 - **DID** — every identity is resolvable as a [decentralized identifier](https://www.w3.org/TR/did-core/), so other agents can verify who they're talking to.
